@@ -2,7 +2,7 @@
 Generates sentences with given text file using Markov Chain and Bigrams as a language model. Made with Stanford CoreNLP.
 
 ## How it works
-The program takes a text file and parses out each sentence and forms bigrams out of the sentences. By the Markov property, the bigram frequencies are used to calculate the transition probabilities and to form the transition graph. See https://web.stanford.edu/class/cs124/lec/languagemodeling.pdf for more info.
+The program takes a text file and parses out each sentence and forms bigrams out of the sentences. By the Markov property, the bigram frequencies are used to calculate the transition probabilities and to form the transition graph. The Markov Chain is modeled with a red-black tree and an adjacency list graph. See https://web.stanford.edu/class/cs124/lec/languagemodeling.pdf for more info.
 
 
 ## Installation
